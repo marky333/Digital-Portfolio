@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Rozariyo - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!-- Icon Library for project links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar container">
+            <a href="#home" class="logo">Martin Rozariyo</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">/home</a></li>
+                <li><a href="#about" class="nav-link">/about</a></li>
+                <li><a href="#services" class="nav-link">/domains</a></li>
+                <li><a href="#projects" class="nav-link">/projects</a></li>
+                <li><a href="#writeups" class="nav-link">/writeups</a></li>
+                <li><a href="#contact" class="nav-link">/contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">Hi, I'm <span class="highlight">Martin Rozariyo</span></h1>
+                <p class="fade-in" style="animation-delay: 0.3s;">CTF Player | Leading Te@/\/\ #unter</p>
+                <div class="hero-buttons fade-in" style="animation-delay: 0.6s;">
+                    <a href="#projects" class="btn btn-primary">My Work</a>
+                    <a href="#" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about animate-on-scroll">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://placehold.co/300x300/1D2B53/FFFFFF?text=MR" alt="not added for now">
+                    </div>
+                    <div class="about-text">
+                        <h3>Third Year B.Tech Student @ Amrita Vishwa Vidyapeetham</h3>
+                        <p>I am an aspiring red teamer and CTF enthusiast, exploring the world of offensive security and system vulnerabilities. I enjoy learning how to identify weaknesses in applications, practice exploitation techniques, and improve my problem-solving skills through hands-on challenges.</p>
+                        <p>Through participating in CTF competitions, I gain practical experience across web, crypto, and forensics challenges. I am currently working on beginner-friendly security projects, like a secure password manager, while continuously expanding my knowledge in penetration testing, networking, and applied cryptography.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services animate-on-scroll">
+            <div class="container">
+                <h2 class="section-title">Core Domains</h2>
+                <div class="service-grid">
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-user-secret"></i></div>
+                        <h3>Red Teaming</h3>
+                        <p>I simulate real-world attack scenarios to assess organizational security, covering social engineering, privilege escalation, and exploit development.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-lock"></i></div>
+                        <h3>Applied Cryptography</h3>
+                        <p>I explore advanced hashing algorithms and encryption techniques, integrating them into secure applications such as password managers and data protection systems.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-search"></i></div>
+                        <h3>Digital Forensics</h3>
+                        <p>I investigate compromised systems by analyzing artifacts, logs, and memory dumps to uncover attack vectors and reconstruct incidents.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects animate-on-scroll">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project-grid">
+
+                    <!-- SecurePass Project -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/1D2B53/FFF?text=SecurePass" alt="SecurePass Project">
+                        <div class="project-info">
+                            <h3>SecurePass - Password Manager (In Progress)</h3>
+                            <p>I am currently developing SecurePass, a password manager that implements AES-GCM for client-side encryption and Argon2 for master password hashing. The project aims to provide a zero-knowledge architecture for secure credential storage.</p>
+                            <div class="project-tags"><span>Python</span><span>Flask</span><span>Cryptography</span><span>In Progress</span></div>
+                            <div class="project-links">
+                                <a href="#" onclick="alert('Coming Soon!'); return false;" title="View on GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coming Soon Projects -->
+                    <div class="project-card coming-soon">
+                        <img src="https://placehold.co/600x400/333/FFF?text=Coming+Soon" alt="Coming Soon">
+                        <div class="project-info">
+                            <h3>More Projects</h3>
+                            <p>Working on additional projects including network security tools, red team utilities, and applied cryptography experiments. Stay tuned for updates!</p>
+                            <div class="project-tags"><span>In Progress</span><span>Security</span><span>Research</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="writeups" class="writeups animate-on-scroll">
+            <div class="container">
+                <h2 class="section-title">CTF Writeups</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>SnakeCTF-scr4mbl3d</h3>
+                            <p>You've give a sage code and its output decrypt it and find the flag.</p>
+                            <div class="project-tags"><span>crypto</span><span>sage</span><span>script</span></div>
+                            <a href="https://github.com/marky333/CTF-Writeups/blob/main/2025/SnakeCTF/scr4mbl3d/" class="btn-view">Read More</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Terrier CTF-Boot-2-Root</h3>
+                            <p>This Boot2Root was a great showcase of how one weak coding pattern (unsanitized template rendering) can snowball into full system compromise.</p>
+                            <div class="project-tags"><span>enumeration</span><span>privilege escalation</span><span>web exploit</span></div>
+                            <a href="https://github.com/marky333/CTF-Writeups/blob/main/2025/Terrier/Boot-2-Root%20:%20FLAG%201/Readme.md" class="btn-view">Read More</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>USTGenCys-INFERENCE OVERIDE-1</h3>
+                            <p>A subtle misstep has left behind more than just metadata. A misconfigured response surfaced an internal path, hinting at unfinished flows and restricted logic behind the storefront.</p>
+                            <div class="project-tags"><span>postman</span><span>web</span><span>IDOR</span><span>php</span></div>
+                            <a href="https://github.com/marky333/CTF-Writeups/tree/main/2025/USTGenCys/Inference%20overide-1" class="btn-view">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact animate-on-scroll">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <p class="contact-subtitle">Looking to collaborate or have a question? Feel free to connect.</p>
+                <a href="mailto:rozariyomartin@gmail.com" class="btn btn-primary">Say Hello</a>
+                <div class="social-links">
+                    <a href="https://github.com/marky333" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/martin-rozariyo-i-b47b6b288/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://tryhackme.com/p/rozariyomartin" target="_blank" title="Try Hack Me">
+                        <img src="/src/thm.png" alt="TryHackMe" style="height:30px;">
+                    </i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Designed & Built by Martin Rozariyo</p>
+        </div>
+    </footer>
+    
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
